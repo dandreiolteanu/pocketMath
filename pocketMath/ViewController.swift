@@ -14,14 +14,40 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        buttonSub1Constraint.constant -= view.bounds.width
+        
+        
     }
-
+    
+    
+    var animationPerformedOnce = false
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if !animationPerformedOnce {
+            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
+                self.buttonSub1Constraint.constant += self.view.bounds.width
+                self.view.layoutIfNeeded()
+            }, completion: nil)
+            
+//            UIView.animate(withDuration: 0.5, delay: 0.3, options: .curveEaseOut, animations: {
+//                self.button2Constraint.constant += self.view.bounds.width
+//                self.view.layoutIfNeeded()
+//            }, completion: nil)
+            
+            animationPerformedOnce = true
+        }
+        
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
