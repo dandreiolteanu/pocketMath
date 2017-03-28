@@ -10,11 +10,12 @@
 		951CA6871E8988580041DA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CA6861E8988580041DA9A /* AppDelegate.swift */; };
 		951CA6891E8988580041DA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CA6881E8988580041DA9A /* ViewController.swift */; };
 		951CA68C1E8988580041DA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951CA68A1E8988580041DA9A /* Main.storyboard */; };
-		951CA68E1E8988580041DA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951CA68D1E8988580041DA9A /* Assets.xcassets */; };
 		951CA6911E8988580041DA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951CA68F1E8988580041DA9A /* LaunchScreen.storyboard */; };
 		951CA69C1E8988580041DA9A /* pocketMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CA69B1E8988580041DA9A /* pocketMathTests.swift */; };
 		951CA6A71E8988580041DA9A /* pocketMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CA6A61E8988580041DA9A /* pocketMathUITests.swift */; };
-		95D2E6301E8A4E3200A6ED0F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2E62F1E8A4E3200A6ED0F /* TableViewController.swift */; };
+		952188621E8B12A3000EE300 /* pocketMathGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952188611E8B12A3000EE300 /* pocketMathGif.swift */; };
+		952188661E8B188F000EE300 /* pocketMathAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 952188651E8B188F000EE300 /* pocketMathAnimated.gif */; };
+		9521886C1E8B1FA3000EE300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9521886B1E8B1FA3000EE300 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		951CA6861E8988580041DA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		951CA6881E8988580041DA9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		951CA68B1E8988580041DA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		951CA68D1E8988580041DA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		951CA6901E8988580041DA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		951CA6921E8988580041DA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		951CA6971E8988580041DA9A /* pocketMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +48,9 @@
 		951CA6A21E8988580041DA9A /* pocketMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		951CA6A61E8988580041DA9A /* pocketMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketMathUITests.swift; sourceTree = "<group>"; };
 		951CA6A81E8988580041DA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95D2E62F1E8A4E3200A6ED0F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		952188611E8B12A3000EE300 /* pocketMathGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pocketMathGif.swift; sourceTree = "<group>"; };
+		952188651E8B188F000EE300 /* pocketMathAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pocketMathAnimated.gif; sourceTree = "<group>"; };
+		9521886B1E8B1FA3000EE300 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				951CA6861E8988580041DA9A /* AppDelegate.swift */,
+				952188611E8B12A3000EE300 /* pocketMathGif.swift */,
 				951CA6881E8988580041DA9A /* ViewController.swift */,
 				951CA68A1E8988580041DA9A /* Main.storyboard */,
-				95D2E62F1E8A4E3200A6ED0F /* TableViewController.swift */,
-				951CA68D1E8988580041DA9A /* Assets.xcassets */,
 				951CA68F1E8988580041DA9A /* LaunchScreen.storyboard */,
+				9521886B1E8B1FA3000EE300 /* Images.xcassets */,
+				952188651E8B188F000EE300 /* pocketMathAnimated.gif */,
 				951CA6921E8988580041DA9A /* Info.plist */,
 			);
 			path = pocketMath;
@@ -239,7 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				951CA6911E8988580041DA9A /* LaunchScreen.storyboard in Resources */,
-				951CA68E1E8988580041DA9A /* Assets.xcassets in Resources */,
+				9521886C1E8B1FA3000EE300 /* Images.xcassets in Resources */,
+				952188661E8B188F000EE300 /* pocketMathAnimated.gif in Resources */,
 				951CA68C1E8988580041DA9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952188621E8B12A3000EE300 /* pocketMathGif.swift in Sources */,
 				951CA6891E8988580041DA9A /* ViewController.swift in Sources */,
-				95D2E6301E8A4E3200A6ED0F /* TableViewController.swift in Sources */,
 				951CA6871E8988580041DA9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
