@@ -14,6 +14,7 @@
 		951CA6911E8988580041DA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951CA68F1E8988580041DA9A /* LaunchScreen.storyboard */; };
 		951CA69C1E8988580041DA9A /* pocketMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CA69B1E8988580041DA9A /* pocketMathTests.swift */; };
 		951CA6A71E8988580041DA9A /* pocketMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CA6A61E8988580041DA9A /* pocketMathUITests.swift */; };
+		95D2E6301E8A4E3200A6ED0F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2E62F1E8A4E3200A6ED0F /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		951CA6A21E8988580041DA9A /* pocketMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		951CA6A61E8988580041DA9A /* pocketMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketMathUITests.swift; sourceTree = "<group>"; };
 		951CA6A81E8988580041DA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D2E62F1E8A4E3200A6ED0F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				951CA6861E8988580041DA9A /* AppDelegate.swift */,
 				951CA6881E8988580041DA9A /* ViewController.swift */,
 				951CA68A1E8988580041DA9A /* Main.storyboard */,
+				95D2E62F1E8A4E3200A6ED0F /* TableViewController.swift */,
 				951CA68D1E8988580041DA9A /* Assets.xcassets */,
 				951CA68F1E8988580041DA9A /* LaunchScreen.storyboard */,
 				951CA6921E8988580041DA9A /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				951CA6891E8988580041DA9A /* ViewController.swift in Sources */,
+				95D2E6301E8A4E3200A6ED0F /* TableViewController.swift in Sources */,
 				951CA6871E8988580041DA9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				951CA6AD1E8988580041DA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		951CA6AE1E8988580041DA9A /* Build configuration list for PBXNativeTarget "pocketMathTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				951CA6B01E8988580041DA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		951CA6B11E8988580041DA9A /* Build configuration list for PBXNativeTarget "pocketMathUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				951CA6B31E8988580041DA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
