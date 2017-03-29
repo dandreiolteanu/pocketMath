@@ -117,12 +117,23 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cmz-GT-Clm"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="xU3-DI-T39" id="pdv-Qp-NXQ"/>
+                    </connections>
                 </viewController>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mathBackground" id="hGD-i0-djL">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="602"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nDW-At-LFW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="xU3-DI-T39">
+                    <connections>
+                        <outlet property="delegate" destination="eo4-ga-43f" id="etE-H6-zYZ"/>
+                        <outlet property="searchContentsController" destination="eo4-ga-43f" id="kpI-Is-RDC"/>
+                        <outlet property="searchResultsDataSource" destination="eo4-ga-43f" id="Vey-o8-qFY"/>
+                        <outlet property="searchResultsDelegate" destination="eo4-ga-43f" id="0vv-ni-N5j"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="2728.8000000000002" y="137.18140929535232"/>
         </scene>
@@ -153,9 +164,19 @@
                                     <constraint firstAttribute="width" constant="86" id="BJb-IS-6qn"/>
                                     <constraint firstAttribute="height" constant="39" id="zpF-1e-CKv"/>
                                 </constraints>
-                                <state key="normal" image="Text-PocketMath"/>
+                                <state key="normal" image="Text-PocketMathV2"/>
                                 <connections>
-                                    <segue destination="eo4-ga-43f" kind="show" id="eC1-Gu-YNJ"/>
+                                    <segue destination="eo4-ga-43f" kind="showDetail" action="showViewController:sender:" id="eC1-Gu-YNJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyH-rd-wsx">
+                                <rect key="frame" x="0.0" y="20" width="51" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backButton2"/>
+                                <connections>
+                                    <segue destination="eo4-ga-43f" kind="popoverPresentation" popoverAnchorView="AyH-rd-wsx" id="zjh-mN-PuP">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                         </subviews>
@@ -175,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bpx-Mu-6xz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3516" y="136.28185907046478"/>
+            <point key="canvasLocation" x="3471" y="137"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="T4N-1F-6Qs">
@@ -202,6 +223,8 @@
     </scenes>
     <resources>
         <image name="Text-PocketMath" width="964" height="447"/>
+        <image name="Text-PocketMathV2" width="964" height="447"/>
+        <image name="backButton2" width="15" height="26"/>
         <image name="mathBackground" width="414" height="736"/>
         <image name="navBar7plus-4" width="414" height="66"/>
         <image name="search" width="52" height="52"/>
