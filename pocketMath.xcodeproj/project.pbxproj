@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285832E1FBBF58116B653307 /* Pods_pocketMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F688AE77C072B1D5BF380E /* Pods_pocketMath.framework */; };
+		697CAC6FB4A3DCBAD208C1A7 /* Pods_pocketMathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CBF83A9EEA6204ACAEB78A /* Pods_pocketMathUITests.framework */; };
 		951CA6871E8988580041DA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CA6861E8988580041DA9A /* AppDelegate.swift */; };
 		951CA6891E8988580041DA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CA6881E8988580041DA9A /* ViewController.swift */; };
 		951CA68C1E8988580041DA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951CA68A1E8988580041DA9A /* Main.storyboard */; };
@@ -16,6 +18,7 @@
 		952188621E8B12A3000EE300 /* pocketMathGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952188611E8B12A3000EE300 /* pocketMathGif.swift */; };
 		952188661E8B188F000EE300 /* pocketMathAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 952188651E8B188F000EE300 /* pocketMathAnimated.gif */; };
 		9521886C1E8B1FA3000EE300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9521886B1E8B1FA3000EE300 /* Images.xcassets */; };
+		EF8D70A1C002476124B3131D /* Pods_pocketMathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822F81A4BEB8560EE2CC86BA /* Pods_pocketMathTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05CBF83A9EEA6204ACAEB78A /* Pods_pocketMathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pocketMathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2746B640C33558975F1D0166 /* Pods-pocketMathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketMathUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pocketMathUITests/Pods-pocketMathUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3469AB49FA5145FD8B30225B /* Pods-pocketMathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketMathTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pocketMathTests/Pods-pocketMathTests.release.xcconfig"; sourceTree = "<group>"; };
+		6823D4F046BAC432D6FD72C8 /* Pods-pocketMathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketMathTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pocketMathTests/Pods-pocketMathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		822F81A4BEB8560EE2CC86BA /* Pods_pocketMathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pocketMathTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		951CA6831E8988580041DA9A /* pocketMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		951CA6861E8988580041DA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		951CA6881E8988580041DA9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		952188611E8B12A3000EE300 /* pocketMathGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pocketMathGif.swift; sourceTree = "<group>"; };
 		952188651E8B188F000EE300 /* pocketMathAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pocketMathAnimated.gif; sourceTree = "<group>"; };
 		9521886B1E8B1FA3000EE300 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		C1EA9B638613D67192CFCF7D /* Pods-pocketMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketMath.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pocketMath/Pods-pocketMath.debug.xcconfig"; sourceTree = "<group>"; };
+		C3F688AE77C072B1D5BF380E /* Pods_pocketMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pocketMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FEE2FFC61690E56D87F9E7 /* Pods-pocketMathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketMathUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pocketMathUITests/Pods-pocketMathUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD20AB540A4D237F7A82D18D /* Pods-pocketMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketMath.release.xcconfig"; path = "Pods/Target Support Files/Pods-pocketMath/Pods-pocketMath.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285832E1FBBF58116B653307 /* Pods_pocketMath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8D70A1C002476124B3131D /* Pods_pocketMathTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697CAC6FB4A3DCBAD208C1A7 /* Pods_pocketMathUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8368129D9560957E1D4BF4F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F688AE77C072B1D5BF380E /* Pods_pocketMath.framework */,
+				822F81A4BEB8560EE2CC86BA /* Pods_pocketMathTests.framework */,
+				05CBF83A9EEA6204ACAEB78A /* Pods_pocketMathUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		936CC6868835DD3E959B9C2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1EA9B638613D67192CFCF7D /* Pods-pocketMath.debug.xcconfig */,
+				DD20AB540A4D237F7A82D18D /* Pods-pocketMath.release.xcconfig */,
+				6823D4F046BAC432D6FD72C8 /* Pods-pocketMathTests.debug.xcconfig */,
+				3469AB49FA5145FD8B30225B /* Pods-pocketMathTests.release.xcconfig */,
+				2746B640C33558975F1D0166 /* Pods-pocketMathUITests.debug.xcconfig */,
+				C4FEE2FFC61690E56D87F9E7 /* Pods-pocketMathUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		951CA67A1E8988580041DA9A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				951CA69A1E8988580041DA9A /* pocketMathTests */,
 				951CA6A51E8988580041DA9A /* pocketMathUITests */,
 				951CA6841E8988580041DA9A /* Products */,
+				936CC6868835DD3E959B9C2C /* Pods */,
+				8368129D9560957E1D4BF4F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951CA6AB1E8988580041DA9A /* Build configuration list for PBXNativeTarget "pocketMath" */;
 			buildPhases = (
+				A81A2FC4D4AEC2925A202F40 /* [CP] Check Pods Manifest.lock */,
 				951CA67F1E8988580041DA9A /* Sources */,
 				951CA6801E8988580041DA9A /* Frameworks */,
 				951CA6811E8988580041DA9A /* Resources */,
+				A1E13ED284588B15C9DDB0DD /* [CP] Embed Pods Frameworks */,
+				886077ACFA722B92067A9C6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951CA6AE1E8988580041DA9A /* Build configuration list for PBXNativeTarget "pocketMathTests" */;
 			buildPhases = (
+				5EB8FBCDFDFCF0783C6F6258 /* [CP] Check Pods Manifest.lock */,
 				951CA6931E8988580041DA9A /* Sources */,
 				951CA6941E8988580041DA9A /* Frameworks */,
 				951CA6951E8988580041DA9A /* Resources */,
+				B3C2772FBC512FCFA0A56378 /* [CP] Embed Pods Frameworks */,
+				163BFF74947B4A7824669E65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951CA6B11E8988580041DA9A /* Build configuration list for PBXNativeTarget "pocketMathUITests" */;
 			buildPhases = (
+				48F5C9594D2B1093980A4F1F /* [CP] Check Pods Manifest.lock */,
 				951CA69E1E8988580041DA9A /* Sources */,
 				951CA69F1E8988580041DA9A /* Frameworks */,
 				951CA6A01E8988580041DA9A /* Resources */,
+				14515D655A49F9EB0424D59A /* [CP] Embed Pods Frameworks */,
+				BA6274168EAA4EFCBF78E2F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +248,7 @@
 				TargetAttributes = {
 					951CA6821E8988580041DA9A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PKG558UE86;
+						DevelopmentTeam = LFJ323P8L8;
 						ProvisioningStyle = Automatic;
 					};
 					951CA6961E8988580041DA9A = {
@@ -263,6 +312,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14515D655A49F9EB0424D59A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pocketMathUITests/Pods-pocketMathUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		163BFF74947B4A7824669E65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pocketMathTests/Pods-pocketMathTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48F5C9594D2B1093980A4F1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB8FBCDFDFCF0783C6F6258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		886077ACFA722B92067A9C6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pocketMath/Pods-pocketMath-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E13ED284588B15C9DDB0DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pocketMath/Pods-pocketMath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A81A2FC4D4AEC2925A202F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C2772FBC512FCFA0A56378 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pocketMathTests/Pods-pocketMathTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6274168EAA4EFCBF78E2F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pocketMathUITests/Pods-pocketMathUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		951CA67F1E8988580041DA9A /* Sources */ = {
@@ -421,12 +608,13 @@
 		};
 		951CA6AC1E8988580041DA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EA9B638613D67192CFCF7D /* Pods-pocketMath.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PKG558UE86;
+				DEVELOPMENT_TEAM = LFJ323P8L8;
 				INFOPLIST_FILE = pocketMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = andreio.pocketMath;
+				PRODUCT_BUNDLE_IDENTIFIER = andreiolteanu.pocketMath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -434,12 +622,13 @@
 		};
 		951CA6AD1E8988580041DA9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD20AB540A4D237F7A82D18D /* Pods-pocketMath.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PKG558UE86;
+				DEVELOPMENT_TEAM = LFJ323P8L8;
 				INFOPLIST_FILE = pocketMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = andreio.pocketMath;
+				PRODUCT_BUNDLE_IDENTIFIER = andreiolteanu.pocketMath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -447,6 +636,7 @@
 		};
 		951CA6AF1E8988580041DA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6823D4F046BAC432D6FD72C8 /* Pods-pocketMathTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +652,7 @@
 		};
 		951CA6B01E8988580041DA9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3469AB49FA5145FD8B30225B /* Pods-pocketMathTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +668,7 @@
 		};
 		951CA6B21E8988580041DA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2746B640C33558975F1D0166 /* Pods-pocketMathUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = PKG558UE86;
@@ -491,6 +683,7 @@
 		};
 		951CA6B31E8988580041DA9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FEE2FFC61690E56D87F9E7 /* Pods-pocketMathUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = PKG558UE86;

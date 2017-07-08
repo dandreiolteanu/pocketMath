@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-pocketMath.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-pocketMathTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-pocketMathUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RevealingSplashView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1749905F2FAEFBC5425D9C67AE9CCA76</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85ABEC53D3B4C2619DB2950220D7E7B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A197569A942C876BC99B3507C755958F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEFF6A517B0C9D6C18706F5A55F1E24F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

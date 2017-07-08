@@ -8,6 +8,9 @@
 
 import UIKit
 
+import RevealingSplashView
+
+
 
 
 
@@ -24,28 +27,26 @@ class ViewController: UIViewController {
     
     
 
-//    @IBOutlet weak var buttonSub1Constraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//       buttonSub1Constraint.constant -= view.bounds.width
-//        if !animationPerformedOnce {
-//            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
-//                self.buttonSub1Constraint.constant += self.view.bounds.width
-//                self.view.layoutIfNeeded()
-//            }, completion: nil)
-//            
-//            //            UIView.animate(withDuration: 0.5, delay: 0.3, options: .curveEaseOut, animations: {
-//            //                self.button2Constraint.constant += self.view.bounds.width
-//            //                self.view.layoutIfNeeded()
-//            //            }, completion: nil)
-//            
-//            animationPerformedOnce = true
-//        }
-//   
-        pocketMathAnimated.loadGif(name:"pocketMathAnimated")
         
-        _ = Timer.scheduledTimer(timeInterval: 0.85, target: self, selector: #selector(timeToMoveOn), userInfo: nil, repeats: false)
+        //Initialize a revealing Splash with with the iconImage, the initial size and the background color
+        let revealingSplashView = RevealingSplashView(iconImage: UIImage(named: "launchScreen")!,iconInitialSize: CGSize(width: 130, height: 130), backgroundColor: UIColor.white)
+        
+        //Adds the revealing splash view as a sub view
+        self.view.addSubview(revealingSplashView)
+        revealingSplashView.animationType = SplashAnimationType.woobleAndZoomOut
+        
+        //Starts animation
+        revealingSplashView.startAnimation(){
+            print("Completed first animation")
+        }
+
+ 
+//        pocketMathAnimated.loadGif(name:"pocketMathAnimated")
+        
+        _ = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(timeToMoveOn), userInfo: nil, repeats: false)
 
         
     }
@@ -66,7 +67,6 @@ class ViewController: UIViewController {
     
     
     
-//    var animationPerformedOnce = false
     
     
     

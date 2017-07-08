@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12D26DCA8D9584931DFA836744E93391 /* Pods-pocketMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1225FB875011F695D0E1D6CD39DBDAD3 /* Pods-pocketMath-dummy.m */; };
+		1DC5DFFD4A1107DE20BB1C08619C26A9 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */; };
+		1F33AE87C3B612ABB0E62B394A4BEF92 /* Pods-pocketMathUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E74A7C76F2FD41858C13E178FE67DD0 /* Pods-pocketMathUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54F0D611E4BE82C4F8DE04E5D1B00E75 /* Pods-pocketMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44305D56BB5CAAEF459630F8FEE1553E /* Pods-pocketMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DDF4F7FE2F181AE49E0648033AE9FF6 /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 256404BFBD69429B5B7E36770528C803 /* RevealingSplashView-dummy.m */; };
+		6FAF0BB73B252B7893A3FD302B2E5C73 /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */; };
+		923BF7AC8B45A15B0A03D052B86973AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A3A02F3A87A93B5C09473F855CB62881 /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A84E797AA13971BDE6139C96CDBE4103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ADC1E4176C64E2C37895607B5DE003CF /* Pods-pocketMathTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF52F4B215017DACDE84747F1B1AFF5 /* Pods-pocketMathTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA5B823EB96154B884B707797137C7BB /* Pods-pocketMathUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9C88E63868D81F1046F9122D01D11 /* Pods-pocketMathUITests-dummy.m */; };
+		C92D86744E977AE451921B4ACF28ED15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CD71371E3FA360FE5845AB52D665D581 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */; };
+		D1961A9271AC386B349016BD4FCF0FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D7E3F936D6D8737AF12F21631B0C2C0C /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */; };
+		D9134331235E9B7AF6EA669F39C7815D /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B63F9159D19F63D8A5D34AD909FE2D /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E449E0309C3DD3B1267773BD1B4DFAB5 /* Pods-pocketMathTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D63735516643048D6A30F2A09E9F18 /* Pods-pocketMathTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434C7ED3836A5DF108946B75CE056038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A197569A942C876BC99B3507C755958F;
+			remoteInfo = RevealingSplashView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A296A1EB5E485970661B420C39C3D5 /* Pods-pocketMathTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketMathTests-frameworks.sh"; sourceTree = "<group>"; };
+		0388EDBF51E1600F9B7DF2300976BB13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E74A7C76F2FD41858C13E178FE67DD0 /* Pods-pocketMathUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pocketMathUITests-umbrella.h"; sourceTree = "<group>"; };
+		107B734387154CD00FFC0112CF416CE1 /* Pods-pocketMath-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocketMath-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1225FB875011F695D0E1D6CD39DBDAD3 /* Pods-pocketMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocketMath-dummy.m"; sourceTree = "<group>"; };
+		1290F7C8CC1C8EDDD991FC5FB0C37AB2 /* Pods-pocketMathUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocketMathUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17B63F9159D19F63D8A5D34AD909FE2D /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
+		1A36F208358BF36EA2FCDA8E182530A3 /* Pods_pocketMathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pocketMathUITests.framework; path = "Pods-pocketMathUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9437CCFF572FB95D8E60A36DC69522 /* Pods-pocketMathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketMathTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
+		220A01FBC3E8A985F33B48DB02D542D1 /* Pods-pocketMath-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketMath-frameworks.sh"; sourceTree = "<group>"; };
+		25205800D17B66315060DD7A60A42E8F /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		256404BFBD69429B5B7E36770528C803 /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
+		25D9C88E63868D81F1046F9122D01D11 /* Pods-pocketMathUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocketMathUITests-dummy.m"; sourceTree = "<group>"; };
+		2D95D32EB00E9300484BEB663717797E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35392293F5F2F2AA30A454B51BE2E92C /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
+		44305D56BB5CAAEF459630F8FEE1553E /* Pods-pocketMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pocketMath-umbrella.h"; sourceTree = "<group>"; };
+		4A50589929271F1538B102C5A0E53708 /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
+		4D9D5A2E66228EF805D60FC92B4962F0 /* Pods_pocketMathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pocketMathTests.framework; path = "Pods-pocketMathTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		689C09EE42F635492A59A9D0AB25A8B5 /* Pods-pocketMathTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocketMathTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		697C3CBB698A3DB0155BCC1188F4FB75 /* Pods-pocketMathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketMathUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DFCDFEEBD3C611F852E6A4082A104C2 /* Pods-pocketMathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketMathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E8EA7558D365095301559E96ED623C8 /* Pods-pocketMath-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketMath-resources.sh"; sourceTree = "<group>"; };
+		6EF4988E5F6B2EAD8536FE1558491CBE /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E086CB43928BD7707A3B54B9CC6100 /* Pods-pocketMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pocketMath.modulemap"; sourceTree = "<group>"; };
+		7D7AE203CD1E0A364A1F110335D51229 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A55D2AE884930CA9E05CE59228DCE5 /* Pods-pocketMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketMath.release.xcconfig"; sourceTree = "<group>"; };
+		86BB04065C9AFD9F83BA0D2AABF6E741 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF52F4B215017DACDE84747F1B1AFF5 /* Pods-pocketMathTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pocketMathTests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
+		9764580AD163C5A9C9B0B0662845F421 /* Pods-pocketMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketMath.debug.xcconfig"; sourceTree = "<group>"; };
+		AFFF9166F4F5E9D63F4E052475CB626F /* Pods-pocketMathUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocketMathUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5E6F9491DA47E69190C4EABCD6B96EC /* Pods-pocketMathUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketMathUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B8DFD65F0B4C77AF596BDA68749DB769 /* Pods-pocketMathTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pocketMathTests.modulemap"; sourceTree = "<group>"; };
+		BD04348E4E453900EEFA8C59DC667282 /* Pods-pocketMathTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketMathTests-resources.sh"; sourceTree = "<group>"; };
+		C294B0DF034034E1BF28B792DA02A5A4 /* Pods-pocketMathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketMathUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
+		D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
+		D96FEE0094366EE3D5DF9EB9656F3F1C /* Pods-pocketMath-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocketMath-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC24C4AB2872A835076E1FB9CA7EC7AA /* Pods-pocketMathTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocketMathTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E69C10B100E124109773FF5099BAB8BE /* Pods_pocketMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pocketMath.framework; path = "Pods-pocketMath.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E734D462D7F394D027065FD23EA791AA /* Pods-pocketMathUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketMathUITests-resources.sh"; sourceTree = "<group>"; };
+		ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
+		F2D63735516643048D6A30F2A09E9F18 /* Pods-pocketMathTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocketMathTests-dummy.m"; sourceTree = "<group>"; };
+		F7F2092A64B0C950FDD0A15EB11FAE12 /* Pods-pocketMathUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pocketMathUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767D955F025561079655861B92C35568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1961A9271AC386B349016BD4FCF0FD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B05B09337499C9E1C35A0A88DC99FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84E797AA13971BDE6139C96CDBE4103 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BE9980EE5FAD322EBF66AB47CA70C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92D86744E977AE451921B4ACF28ED15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE240D524ED9BAF5C78BE3FA2D70F2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923BF7AC8B45A15B0A03D052B86973AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9E1D82B9DCCC40FACFFD0664D3FF3E /* Pods-pocketMath */ = {
+			isa = PBXGroup;
+			children = (
+				7D7AE203CD1E0A364A1F110335D51229 /* Info.plist */,
+				79E086CB43928BD7707A3B54B9CC6100 /* Pods-pocketMath.modulemap */,
+				107B734387154CD00FFC0112CF416CE1 /* Pods-pocketMath-acknowledgements.markdown */,
+				D96FEE0094366EE3D5DF9EB9656F3F1C /* Pods-pocketMath-acknowledgements.plist */,
+				1225FB875011F695D0E1D6CD39DBDAD3 /* Pods-pocketMath-dummy.m */,
+				220A01FBC3E8A985F33B48DB02D542D1 /* Pods-pocketMath-frameworks.sh */,
+				6E8EA7558D365095301559E96ED623C8 /* Pods-pocketMath-resources.sh */,
+				44305D56BB5CAAEF459630F8FEE1553E /* Pods-pocketMath-umbrella.h */,
+				9764580AD163C5A9C9B0B0662845F421 /* Pods-pocketMath.debug.xcconfig */,
+				83A55D2AE884930CA9E05CE59228DCE5 /* Pods-pocketMath.release.xcconfig */,
+			);
+			name = "Pods-pocketMath";
+			path = "Target Support Files/Pods-pocketMath";
+			sourceTree = "<group>";
+		};
+		6156486D19AE36FA41FFCA873842023B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0388EDBF51E1600F9B7DF2300976BB13 /* Info.plist */,
+				25205800D17B66315060DD7A60A42E8F /* RevealingSplashView.modulemap */,
+				35392293F5F2F2AA30A454B51BE2E92C /* RevealingSplashView.xcconfig */,
+				256404BFBD69429B5B7E36770528C803 /* RevealingSplashView-dummy.m */,
+				4A50589929271F1538B102C5A0E53708 /* RevealingSplashView-prefix.pch */,
+				17B63F9159D19F63D8A5D34AD909FE2D /* RevealingSplashView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RevealingSplashView";
+			sourceTree = "<group>";
+		};
+		6CC04564F812EED3776ECC4951BE81AA /* Pods-pocketMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				86BB04065C9AFD9F83BA0D2AABF6E741 /* Info.plist */,
+				B8DFD65F0B4C77AF596BDA68749DB769 /* Pods-pocketMathTests.modulemap */,
+				689C09EE42F635492A59A9D0AB25A8B5 /* Pods-pocketMathTests-acknowledgements.markdown */,
+				DC24C4AB2872A835076E1FB9CA7EC7AA /* Pods-pocketMathTests-acknowledgements.plist */,
+				F2D63735516643048D6A30F2A09E9F18 /* Pods-pocketMathTests-dummy.m */,
+				02A296A1EB5E485970661B420C39C3D5 /* Pods-pocketMathTests-frameworks.sh */,
+				BD04348E4E453900EEFA8C59DC667282 /* Pods-pocketMathTests-resources.sh */,
+				8DF52F4B215017DACDE84747F1B1AFF5 /* Pods-pocketMathTests-umbrella.h */,
+				6DFCDFEEBD3C611F852E6A4082A104C2 /* Pods-pocketMathTests.debug.xcconfig */,
+				1D9437CCFF572FB95D8E60A36DC69522 /* Pods-pocketMathTests.release.xcconfig */,
+			);
+			name = "Pods-pocketMathTests";
+			path = "Target Support Files/Pods-pocketMathTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D91FEAE70316EE8A91F65526A35FC97E /* Pods */,
+				D2747E69732D9481B5A79D025F34ABF4 /* Products */,
+				842A6CF66D6D9C55128D842A80C465B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		842A6CF66D6D9C55128D842A80C465B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D9E1D82B9DCCC40FACFFD0664D3FF3E /* Pods-pocketMath */,
+				6CC04564F812EED3776ECC4951BE81AA /* Pods-pocketMathTests */,
+				F4C84969FA439A6AFD4D5D37C4F9E4C9 /* Pods-pocketMathUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2747E69732D9481B5A79D025F34ABF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E69C10B100E124109773FF5099BAB8BE /* Pods_pocketMath.framework */,
+				4D9D5A2E66228EF805D60FC92B4962F0 /* Pods_pocketMathTests.framework */,
+				1A36F208358BF36EA2FCDA8E182530A3 /* Pods_pocketMathUITests.framework */,
+				6EF4988E5F6B2EAD8536FE1558491CBE /* RevealingSplashView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D91FEAE70316EE8A91F65526A35FC97E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F49326C7ED01A06909FA8868635BEE71 /* RevealingSplashView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F49326C7ED01A06909FA8868635BEE71 /* RevealingSplashView */ = {
+			isa = PBXGroup;
+			children = (
+				C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */,
+				D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */,
+				1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */,
+				ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */,
+				959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */,
+				6156486D19AE36FA41FFCA873842023B /* Support Files */,
+			);
+			name = RevealingSplashView;
+			path = RevealingSplashView;
+			sourceTree = "<group>";
+		};
+		F4C84969FA439A6AFD4D5D37C4F9E4C9 /* Pods-pocketMathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D95D32EB00E9300484BEB663717797E /* Info.plist */,
+				F7F2092A64B0C950FDD0A15EB11FAE12 /* Pods-pocketMathUITests.modulemap */,
+				1290F7C8CC1C8EDDD991FC5FB0C37AB2 /* Pods-pocketMathUITests-acknowledgements.markdown */,
+				AFFF9166F4F5E9D63F4E052475CB626F /* Pods-pocketMathUITests-acknowledgements.plist */,
+				25D9C88E63868D81F1046F9122D01D11 /* Pods-pocketMathUITests-dummy.m */,
+				B5E6F9491DA47E69190C4EABCD6B96EC /* Pods-pocketMathUITests-frameworks.sh */,
+				E734D462D7F394D027065FD23EA791AA /* Pods-pocketMathUITests-resources.sh */,
+				0E74A7C76F2FD41858C13E178FE67DD0 /* Pods-pocketMathUITests-umbrella.h */,
+				697C3CBB698A3DB0155BCC1188F4FB75 /* Pods-pocketMathUITests.debug.xcconfig */,
+				C294B0DF034034E1BF28B792DA02A5A4 /* Pods-pocketMathUITests.release.xcconfig */,
+			);
+			name = "Pods-pocketMathUITests";
+			path = "Target Support Files/Pods-pocketMathUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		058D313F32B888E3FAC33354353256C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9134331235E9B7AF6EA669F39C7815D /* RevealingSplashView-umbrella.h in Headers */,
+				A3A02F3A87A93B5C09473F855CB62881 /* RevealingSplashView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A68A181D2646A023FC1F4E642DAF5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC1E4176C64E2C37895607B5DE003CF /* Pods-pocketMathTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BEC0E7233E29AB286B42D23BDC5A37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F0D611E4BE82C4F8DE04E5D1B00E75 /* Pods-pocketMath-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2046F90AA9F9A4D37A1189A96AB525 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F33AE87C3B612ABB0E62B394A4BEF92 /* Pods-pocketMathUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1749905F2FAEFBC5425D9C67AE9CCA76 /* Pods-pocketMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3018BBF338213D1A55E3D1C6858B36E0 /* Build configuration list for PBXNativeTarget "Pods-pocketMathTests" */;
+			buildPhases = (
+				7AEC8B5A9132E687B978D68CFEB965A0 /* Sources */,
+				82BE9980EE5FAD322EBF66AB47CA70C1 /* Frameworks */,
+				45A68A181D2646A023FC1F4E642DAF5C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pocketMathTests";
+			productName = "Pods-pocketMathTests";
+			productReference = 4D9D5A2E66228EF805D60FC92B4962F0 /* Pods_pocketMathTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85ABEC53D3B4C2619DB2950220D7E7B2 /* Pods-pocketMathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190475CC6BA954087C312A05F623308D /* Build configuration list for PBXNativeTarget "Pods-pocketMathUITests" */;
+			buildPhases = (
+				C4211AB0C9EEC9CC188BB04C0DE12EB7 /* Sources */,
+				DEE240D524ED9BAF5C78BE3FA2D70F2B /* Frameworks */,
+				CC2046F90AA9F9A4D37A1189A96AB525 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pocketMathUITests";
+			productName = "Pods-pocketMathUITests";
+			productReference = 1A36F208358BF36EA2FCDA8E182530A3 /* Pods_pocketMathUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A197569A942C876BC99B3507C755958F /* RevealingSplashView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773B891643D79807770DB59A6DB7636A /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
+			buildPhases = (
+				A30AD6285E28BF1C9E4841E69C8D7C60 /* Sources */,
+				7B05B09337499C9E1C35A0A88DC99FAB /* Frameworks */,
+				058D313F32B888E3FAC33354353256C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealingSplashView;
+			productName = RevealingSplashView;
+			productReference = 6EF4988E5F6B2EAD8536FE1558491CBE /* RevealingSplashView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEFF6A517B0C9D6C18706F5A55F1E24F /* Pods-pocketMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D91458397FD890DC0962FAA6E61D7C /* Build configuration list for PBXNativeTarget "Pods-pocketMath" */;
+			buildPhases = (
+				A72EF909EE2C0DA8B395550AE7E2EACA /* Sources */,
+				767D955F025561079655861B92C35568 /* Frameworks */,
+				A0BEC0E7233E29AB286B42D23BDC5A37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9A093EF086E4916ECED7B17A6737875 /* PBXTargetDependency */,
+			);
+			name = "Pods-pocketMath";
+			productName = "Pods-pocketMath";
+			productReference = E69C10B100E124109773FF5099BAB8BE /* Pods_pocketMath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D2747E69732D9481B5A79D025F34ABF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEFF6A517B0C9D6C18706F5A55F1E24F /* Pods-pocketMath */,
+				1749905F2FAEFBC5425D9C67AE9CCA76 /* Pods-pocketMathTests */,
+				85ABEC53D3B4C2619DB2950220D7E7B2 /* Pods-pocketMathUITests */,
+				A197569A942C876BC99B3507C755958F /* RevealingSplashView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AEC8B5A9132E687B978D68CFEB965A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E449E0309C3DD3B1267773BD1B4DFAB5 /* Pods-pocketMathTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30AD6285E28BF1C9E4841E69C8D7C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC5DFFD4A1107DE20BB1C08619C26A9 /* Animations.swift in Sources */,
+				6DDF4F7FE2F181AE49E0648033AE9FF6 /* RevealingSplashView-dummy.m in Sources */,
+				6FAF0BB73B252B7893A3FD302B2E5C73 /* RevealingSplashView.swift in Sources */,
+				CD71371E3FA360FE5845AB52D665D581 /* SplashAnimatable.swift in Sources */,
+				D7E3F936D6D8737AF12F21631B0C2C0C /* SplashAnimationType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72EF909EE2C0DA8B395550AE7E2EACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D26DCA8D9584931DFA836744E93391 /* Pods-pocketMath-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4211AB0C9EEC9CC188BB04C0DE12EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5B823EB96154B884B707797137C7BB /* Pods-pocketMathUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9A093EF086E4916ECED7B17A6737875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RevealingSplashView;
+			target = A197569A942C876BC99B3507C755958F /* RevealingSplashView */;
+			targetProxy = 434C7ED3836A5DF108946B75CE056038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07C8E8C8163B956D34F2BE64151B9CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35392293F5F2F2AA30A454B51BE2E92C /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1408F1FB668EB9BABCC2FBA6F47EF783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9764580AD163C5A9C9B0B0662845F421 /* Pods-pocketMath.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pocketMath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pocketMath/Pods-pocketMath.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pocketMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37AD0C583DEE4B3633BB4979BE734323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35392293F5F2F2AA30A454B51BE2E92C /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		549B5FD135258A4621D8D89FE7BF8811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C294B0DF034034E1BF28B792DA02A5A4 /* Pods-pocketMathUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pocketMathUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pocketMathUITests/Pods-pocketMathUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pocketMathUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70E5665EF23BC072FDA3F579B7C5DC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A55D2AE884930CA9E05CE59228DCE5 /* Pods-pocketMath.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pocketMath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pocketMath/Pods-pocketMath.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pocketMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B39A029D1D7114737B0E43E73539935E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9437CCFF572FB95D8E60A36DC69522 /* Pods-pocketMathTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pocketMathTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pocketMathTests/Pods-pocketMathTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pocketMathTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC4D5D754DBF2FCDCC64294E50AD13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 697C3CBB698A3DB0155BCC1188F4FB75 /* Pods-pocketMathUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pocketMathUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pocketMathUITests/Pods-pocketMathUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pocketMathUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F52D28B5F042ACB9F4AE879411BF28CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFCDFEEBD3C611F852E6A4082A104C2 /* Pods-pocketMathTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pocketMathTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pocketMathTests/Pods-pocketMathTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pocketMathTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190475CC6BA954087C312A05F623308D /* Build configuration list for PBXNativeTarget "Pods-pocketMathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC4D5D754DBF2FCDCC64294E50AD13C /* Debug */,
+				549B5FD135258A4621D8D89FE7BF8811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3018BBF338213D1A55E3D1C6858B36E0 /* Build configuration list for PBXNativeTarget "Pods-pocketMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D28B5F042ACB9F4AE879411BF28CA /* Debug */,
+				B39A029D1D7114737B0E43E73539935E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773B891643D79807770DB59A6DB7636A /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37AD0C583DEE4B3633BB4979BE734323 /* Debug */,
+				07C8E8C8163B956D34F2BE64151B9CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D91458397FD890DC0962FAA6E61D7C /* Build configuration list for PBXNativeTarget "Pods-pocketMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1408F1FB668EB9BABCC2FBA6F47EF783 /* Debug */,
+				70E5665EF23BC072FDA3F579B7C5DC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
